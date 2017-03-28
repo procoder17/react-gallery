@@ -1,18 +1,17 @@
-import createResizeDetector from 'element-resize-detector';
+import createResizeDetector from 'element-resize-detector'
 
-let instance;
+let instance
 
 // Lazily require to not cause bug
 // https://github.com/procoder17/react-sizeme/issues/6
-// import resizeDetector from './resizeDetector';
 function resizeDetector() {
   if (!instance) {
     instance = createResizeDetector({
       strategy: 'scroll',
-    });
+    })
   }
 
-  return instance;
+  return instance
 }
 
-export default resizeDetector;
+export default resizeDetector
