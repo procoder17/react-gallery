@@ -33,7 +33,7 @@ export default sizeMe()(MyComponent)
  - [Demo](https://github.com/procoder17/react-sizeme#live-demo)
  - [Usage and API Details](https://github.com/procoder17/react-sizeme#usage-and-api-details)
  - [`onSize` callback alternative usage](https://github.com/procoder17/react-sizeme#onsize-callback-alternative-usage)
- - [`react-component-queries`: a highly recommended abstraction](https://github.com/procoder17/react-sizeme#react-component-queries-a-highly-recommended-abstraction)
+ - [A highly recommended abstraction: `react-component-queries`](https://github.com/procoder17/react-sizeme#a-highly-recommended-abstraction-react-component-queries)
  - [On the First Render of your Component](https://github.com/procoder17/react-sizeme#on-the-first-render-of-your-component)
  - [Controlling the `size` data refresh rate](https://github.com/procoder17/react-sizeme#controlling-the-size-data-refresh-rate)
  - [Server Side Rendering](https://github.com/procoder17/react-sizeme#server-side-rendering)
@@ -229,7 +229,7 @@ class MyContainerComponent extends React.Component {
 
 Zing. Let me know if you have issues/ideas!
 
-## `react-component-queries`: a highly recommended abstraction
+## A highly recommended abstraction: `react-component-queries`
 
 `react-sizeme` is great, however, it suffers with a couple of problems in my opinion:
 
