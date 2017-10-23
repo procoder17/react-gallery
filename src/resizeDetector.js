@@ -4,10 +4,10 @@ let instance
 
 // Lazily require to not cause bug
 // https://github.com/procoder17/react-sizeme/issues/6
-function resizeDetector() {
+function resizeDetector(strategy = 'scroll') {
   if (!instance) {
     instance = createResizeDetector({
-      strategy: 'scroll',
+      strategy,
     })
   }
 
