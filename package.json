@@ -19,7 +19,7 @@
     "library"
   ],
   "homepage": "https://github.com/ctrlplusb/react-sizeme#readme",
-  "author": "procoder17 <procoder17@outlook.com>",
+  "author": "Sean Matheson <sean@ctrlplusb.com>",
   "scripts": {
     "build": "node ./tools/scripts/build.js",
     "clean": "rimraf ./dist && rimraf ./coverage",
